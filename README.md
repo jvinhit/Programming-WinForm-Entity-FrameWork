@@ -1,4 +1,4 @@
 Programming-WinForm-Entity-FrameWork
 ====================================
 
-Lập trình windows 
+Programming Windows Form apply 3 - layer. 
