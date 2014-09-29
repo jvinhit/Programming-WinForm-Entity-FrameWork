@@ -1,0 +1,18 @@
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

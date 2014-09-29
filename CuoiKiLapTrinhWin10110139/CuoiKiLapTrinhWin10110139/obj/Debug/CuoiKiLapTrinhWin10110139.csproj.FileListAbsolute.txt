@@ -1,0 +1,56 @@
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.exe.config
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.exe
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.pdb
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.exe
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.pdb
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\BALayer.dll
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\DataAccessLayer.dll
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\EntityFramework.dll
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\BALayer.pdb
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\DataAccessLayer.pdb
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\EntityFramework.xml
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.csprojResolveAssemblyReference.cache
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.Form1.resources
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.frmConnectDB.resources
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.frmDangNhap.resources
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.Properties.Resources.resources
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.csproj.GenerateResource.Cache
+E:\Projects\CSDL C#\Chan\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.exe.licenses
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.Form1.resources
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.frmConnectDB.resources
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.frmDangNhap.resources
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.Properties.Resources.resources
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.csproj.GenerateResource.Cache
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.exe.licenses
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.exe.config
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.exe
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.pdb
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\BALayer.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\DataAccessLayer.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\EntityFramework.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\BALayer.pdb
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\DataAccessLayer.pdb
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\EntityFramework.xml
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.csprojResolveAssemblyReference.cache
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.exe
+E:\Projects\CSDL C#\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.exe.config
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.exe
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\CuoiKiLapTrinhWin10110139.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\BALayer.dll
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\DataAccessLayer.dll
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\BALayer.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\DataAccessLayer.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.csprojResolveAssemblyReference.cache
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.Form1.resources
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.frmConnectDB.resources
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.frmDangNhap.resources
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.Properties.Resources.resources
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.csproj.GenerateResource.Cache
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.exe.licenses
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.exe
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\obj\Debug\CuoiKiLapTrinhWin10110139.pdb
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\EntityFramework.dll
+C:\Users\JVinhIT\Desktop\CuoiKiLapTrinhWin10110139\CuoiKiLapTrinhWin10110139\bin\Debug\EntityFramework.xml

@@ -1,0 +1,7 @@
+-----------------------------------------------------
+    EntityFramework.Preview PACKAGE IS OBSOLETE    
+-----------------------------------------------------
+
+
+The latest preview of the EntityFramework package can now be installed 
+using the "Install-Package EntityFramework -IncludePrerelease" command.

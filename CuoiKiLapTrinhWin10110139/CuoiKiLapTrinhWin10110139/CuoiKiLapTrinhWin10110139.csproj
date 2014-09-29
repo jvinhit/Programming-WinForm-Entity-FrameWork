@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{477C82AE-0B4B-4A3F-A16B-76FBAC1BD4DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CuoiKiLapTrinhWin10110139</RootNamespace>
+    <AssemblyName>CuoiKiLapTrinhWin10110139</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BALayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BALayer\bin\Debug\BALayer.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BALayer\bin\Debug\DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2.Extensions, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnectDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnectDB.Designer.cs">
+      <DependentUpon>frmConnectDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnectDB.resx">
+      <DependentUpon>frmConnectDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Hinh cho app\.DS_Store" />
+    <None Include="Hinh cho app\Thumbs.db" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EntityFramework.Preview.ReadMe.txt" />
+    <Content Include="Hinh cho app\Add.ico" />
+    <Content Include="Hinh cho app\Add_16x16.png" />
+    <Content Include="Hinh cho app\Add_24x24.png" />
+    <Content Include="Hinh cho app\Add_256x256.png" />
+    <Content Include="Hinh cho app\Add_32x32 - Copy.png" />
+    <Content Include="Hinh cho app\Add_32x32.png" />
+    <Content Include="Hinh cho app\Add_48x48.png" />
+    <Content Include="Hinh cho app\Archive.ico" />
+    <Content Include="Hinh cho app\Archive_16x16.png" />
+    <Content Include="Hinh cho app\Archive_24x24.png" />
+    <Content Include="Hinh cho app\Archive_256x256.png" />
+    <Content Include="Hinh cho app\Archive_32x32.png" />
+    <Content Include="Hinh cho app\Archive_48x48.png" />
+    <Content Include="Hinh cho app\Audio Disk.ico" />
+    <Content Include="Hinh cho app\Audio Disk_16x16.png" />
+    <Content Include="Hinh cho app\Audio Disk_24x24.png" />
+    <Content Include="Hinh cho app\Audio Disk_256x256.png" />
+    <Content Include="Hinh cho app\Audio Disk_32x32.png" />
+    <Content Include="Hinh cho app\Audio Disk_48x48.png" />
+    <Content Include="Hinh cho app\Burn Disk.ico" />
+    <Content Include="Hinh cho app\Burn Disk_16x16.png" />
+    <Content Include="Hinh cho app\Burn Disk_24x24.png" />
+    <Content Include="Hinh cho app\Burn Disk_256x256.png" />
+    <Content Include="Hinh cho app\Burn Disk_32x32.png" />
+    <Content Include="Hinh cho app\Burn Disk_48x48.png" />
+    <Content Include="Hinh cho app\Calendar.ico" />
+    <Content Include="Hinh cho app\Calendar_16x16.png" />
+    <Content Include="Hinh cho app\Calendar_24x24.png" />
+    <Content Include="Hinh cho app\Calendar_256x256.png" />
+    <Content Include="Hinh cho app\Calendar_32x32.png" />
+    <Content Include="Hinh cho app\Calendar_48x48.png" />
+    <Content Include="Hinh cho app\Cancel.ico" />
+    <Content Include="Hinh cho app\Cancel_16x16.png" />
+    <Content Include="Hinh cho app\Cancel_24x24.png" />
+    <Content Include="Hinh cho app\Cancel_256x256.png" />
+    <Content Include="Hinh cho app\Cancel_32x32.png" />
+    <Content Include="Hinh cho app\Cancel_48x48.png" />
+    <Content Include="Hinh cho app\Check.ico" />
+    <Content Include="Hinh cho app\Check_16x16.png" />
+    <Content Include="Hinh cho app\Check_24x24.png" />
+    <Content Include="Hinh cho app\Check_256x256.png" />
+    <Content Include="Hinh cho app\Check_32x32.png" />
+    <Content Include="Hinh cho app\Check_48x48.png" />
+    <Content Include="Hinh cho app\Compact Disk.ico" />
+    <Content Include="Hinh cho app\Compact Disk_16x16.png" />
+    <Content Include="Hinh cho app\Compact Disk_24x24.png" />
+    <Content Include="Hinh cho app\Compact Disk_256x256.png" />
+    <Content Include="Hinh cho app\Compact Disk_32x32.png" />
+    <Content Include="Hinh cho app\Compact Disk_48x48.png" />
+    <Content Include="Hinh cho app\Copy_16x16.png" />
+    <Content Include="Hinh cho app\Copy_24x24.png" />
+    <Content Include="Hinh cho app\Copy_256x256.png" />
+    <Content Include="Hinh cho app\Copy_32x32.png" />
+    <Content Include="Hinh cho app\Copy_48x48.png" />
+    <Content Include="Hinh cho app\Cut_16x16.png" />
+    <Content Include="Hinh cho app\Cut_24x24.png" />
+    <Content Include="Hinh cho app\Cut_256x256.png" />
+    <Content Include="Hinh cho app\Cut_32x32.png" />
+    <Content Include="Hinh cho app\Cut_48x48.png" />
+    <Content Include="Hinh cho app\Delete.ico" />
+    <Content Include="Hinh cho app\Delete_16x16.png" />
+    <Content Include="Hinh cho app\Delete_24x24.png" />
+    <Content Include="Hinh cho app\Delete_256x256.png" />
+    <Content Include="Hinh cho app\Delete_32x32.png" />
+    <Content Include="Hinh cho app\Delete_48x48.png" />
+    <Content Include="Hinh cho app\Download_16x16.png" />
+    <Content Include="Hinh cho app\Download_24x24.png" />
+    <Content Include="Hinh cho app\Download_256x256.png" />
+    <Content Include="Hinh cho app\Download_32x32.png" />
+    <Content Include="Hinh cho app\Download_48x48.png" />
+    <Content Include="Hinh cho app\DVD Disk.ico" />
+    <Content Include="Hinh cho app\DVD Disk_16x16.png" />
+    <Content Include="Hinh cho app\DVD Disk_24x24.png" />
+    <Content Include="Hinh cho app\DVD Disk_256x256.png" />
+    <Content Include="Hinh cho app\DVD Disk_32x32.png" />
+    <Content Include="Hinh cho app\DVD Disk_48x48.png" />
+    <Content Include="Hinh cho app\Edit.ico" />
+    <Content Include="Hinh cho app\Edit_16x16.png" />
+    <Content Include="Hinh cho app\Edit_24x24.png" />
+    <Content Include="Hinh cho app\Edit_256x256.png" />
+    <Content Include="Hinh cho app\Edit_32x32.png" />
+    <Content Include="Hinh cho app\Edit_48x48.png" />
+    <Content Include="Hinh cho app\Favorites.ico" />
+    <Content Include="Hinh cho app\Favorites_16x16.png" />
+    <Content Include="Hinh cho app\Favorites_24x24.png" />
+    <Content Include="Hinh cho app\Favorites_256x256.png" />
+    <Content Include="Hinh cho app\Favorites_32x32.png" />
+    <Content Include="Hinh cho app\Favorites_48x48.png" />
+    <Content Include="Hinh cho app\Find.ico" />
+    <Content Include="Hinh cho app\Find_16x16.png" />
+    <Content Include="Hinh cho app\Find_24x24.png" />
+    <Content Include="Hinh cho app\Find_256x256.png" />
+    <Content Include="Hinh cho app\Find_32x32.png" />
+    <Content Include="Hinh cho app\Find_48x48.png" />
+    <Content Include="Hinh cho app\Flash Disk.ico" />
+    <Content Include="Hinh cho app\Flash Disk_16x16.png" />
+    <Content Include="Hinh cho app\Flash Disk_24x24.png" />
+    <Content Include="Hinh cho app\Flash Disk_256x256.png" />
+    <Content Include="Hinh cho app\Flash Disk_32x32.png" />
+    <Content Include="Hinh cho app\Flash Disk_48x48.png" />
+    <Content Include="Hinh cho app\Folder.ico" />
+    <Content Include="Hinh cho app\Folder_16x16.png" />
+    <Content Include="Hinh cho app\Folder_24x24.png" />
+    <Content Include="Hinh cho app\Folder_256x256.png" />
+    <Content Include="Hinh cho app\Folder_32x32.png" />
+    <Content Include="Hinh cho app\Folder_48x48.png" />
+    <Content Include="Hinh cho app\Forward.ico" />
+    <Content Include="Hinh cho app\Forward_16x16.png" />
+    <Content Include="Hinh cho app\Forward_24x24.png" />
+    <Content Include="Hinh cho app\Forward_256x256.png" />
+    <Content Include="Hinh cho app\Forward_32x32.png" />
+    <Content Include="Hinh cho app\Forward_48x48.png" />
+    <Content Include="Hinh cho app\Globe.ico" />
+    <Content Include="Hinh cho app\Globe_16x16.png" />
+    <Content Include="Hinh cho app\Globe_24x24.png" />
+    <Content Include="Hinh cho app\Globe_256x256.png" />
+    <Content Include="Hinh cho app\Globe_32x32.png" />
+    <Content Include="Hinh cho app\Globe_48x48.png" />
+    <Content Include="Hinh cho app\Hard Disk.ico" />
+    <Content Include="Hinh cho app\Hard Disk_16x16.png" />
+    <Content Include="Hinh cho app\Hard Disk_24x24.png" />
+    <Content Include="Hinh cho app\Hard Disk_256x256.png" />
+    <Content Include="Hinh cho app\Hard Disk_32x32.png" />
+    <Content Include="Hinh cho app\Hard Disk_48x48.png" />
+    <Content Include="Hinh cho app\Help.ico" />
+    <Content Include="Hinh cho app\Help_16x16.png" />
+    <Content Include="Hinh cho app\Help_24x24.png" />
+    <Content Include="Hinh cho app\Help_256x256.png" />
+    <Content Include="Hinh cho app\Help_32x32.png" />
+    <Content Include="Hinh cho app\Help_48x48.png" />
+    <Content Include="Hinh cho app\Information.ico" />
+    <Content Include="Hinh cho app\Information_16x16.png" />
+    <Content Include="Hinh cho app\Information_24x24.png" />
+    <Content Include="Hinh cho app\Information_256x256.png" />
+    <Content Include="Hinh cho app\Information_32x32.png" />
+    <Content Include="Hinh cho app\Information_48x48.png" />
+    <Content Include="Hinh cho app\Key.ico" />
+    <Content Include="Hinh cho app\Key_16x16.png" />
+    <Content Include="Hinh cho app\Key_24x24.png" />
+    <Content Include="Hinh cho app\Key_256x256.png" />
+    <Content Include="Hinh cho app\Key_32x32.png" />
+    <Content Include="Hinh cho app\Key_48x48.png" />
+    <Content Include="Hinh cho app\Log Out.ico" />
+    <Content Include="Hinh cho app\Log Out_16x16.png" />
+    <Content Include="Hinh cho app\Log Out_24x24.png" />
+    <Content Include="Hinh cho app\Log Out_256x256.png" />
+    <Content Include="Hinh cho app\Log Out_32x32.png" />
+    <Content Include="Hinh cho app\Log Out_48x48.png" />
+    <Content Include="Hinh cho app\Mail.ico" />
+    <Content Include="Hinh cho app\Mail_16x16.png" />
+    <Content Include="Hinh cho app\Mail_24x24.png" />
+    <Content Include="Hinh cho app\Mail_256x256.png" />
+    <Content Include="Hinh cho app\Mail_32x32.png" />
+    <Content Include="Hinh cho app\Mail_48x48.png" />
+    <Content Include="Hinh cho app\Negative.ico" />
+    <Content Include="Hinh cho app\Negative_16x16.png" />
+    <Content Include="Hinh cho app\Negative_24x24.png" />
+    <Content Include="Hinh cho app\Negative_256x256.png" />
+    <Content Include="Hinh cho app\Negative_32x32.png" />
+    <Content Include="Hinh cho app\Negative_48x48.png" />
+    <Content Include="Hinh cho app\New.ico" />
+    <Content Include="Hinh cho app\New_16x16.png" />
+    <Content Include="Hinh cho app\New_24x24.png" />
+    <Content Include="Hinh cho app\New_256x256.png" />
+    <Content Include="Hinh cho app\New_32x32.png" />
+    <Content Include="Hinh cho app\New_48x48.png" />
+    <Content Include="Hinh cho app\Next.ico" />
+    <Content Include="Hinh cho app\Next_16x16.png" />
+    <Content Include="Hinh cho app\Next_24x24.png" />
+    <Content Include="Hinh cho app\Next_256x256.png" />
+    <Content Include="Hinh cho app\Next_32x32.png" />
+    <Content Include="Hinh cho app\Next_48x48.png" />
+    <Content Include="Hinh cho app\Open.ico" />
+    <Content Include="Hinh cho app\Open_16x16.png" />
+    <Content Include="Hinh cho app\Open_24x24.png" />
+    <Content Include="Hinh cho app\Open_256x256.png" />
+    <Content Include="Hinh cho app\Open_32x32.png" />
+    <Content Include="Hinh cho app\Open_48x48.png" />
+    <Content Include="Hinh cho app\Paste.ico" />
+    <Content Include="Hinh cho app\Paste_16x16.png" />
+    <Content Include="Hinh cho app\Paste_24x24.png" />
+    <Content Include="Hinh cho app\Paste_256x256.png" />
+    <Content Include="Hinh cho app\Paste_32x32.png" />
+    <Content Include="Hinh cho app\Paste_48x48.png" />
+    <Content Include="Hinh cho app\Pause.ico" />
+    <Content Include="Hinh cho app\Pause_16x16.png" />
+    <Content Include="Hinh cho app\Pause_24x24.png" />
+    <Content Include="Hinh cho app\Pause_256x256.png" />
+    <Content Include="Hinh cho app\Pause_32x32.png" />
+    <Content Include="Hinh cho app\Pause_48x48.png" />
+    <Content Include="Hinh cho app\Picture.ico" />
+    <Content Include="Hinh cho app\Picture_16x16.png" />
+    <Content Include="Hinh cho app\Picture_24x24.png" />
+    <Content Include="Hinh cho app\Picture_256x256.png" />
+    <Content Include="Hinh cho app\Picture_32x32.png" />
+    <Content Include="Hinh cho app\Picture_48x48.png" />
+    <Content Include="Hinh cho app\Play.ico" />
+    <Content Include="Hinh cho app\Play_16x16.png" />
+    <Content Include="Hinh cho app\Play_24x24.png" />
+    <Content Include="Hinh cho app\Play_256x256.png" />
+    <Content Include="Hinh cho app\Play_32x32.png" />
+    <Content Include="Hinh cho app\Play_48x48.png" />
+    <Content Include="Hinh cho app\Positive.ico" />
+    <Content Include="Hinh cho app\Positive_16x16.png" />
+    <Content Include="Hinh cho app\Positive_24x24.png" />
+    <Content Include="Hinh cho app\Positive_256x256.png" />
+    <Content Include="Hinh cho app\Positive_32x32.png" />
+    <Content Include="Hinh cho app\Positive_48x48.png" />
+    <Content Include="Hinh cho app\Presentation.ico" />
+    <Content Include="Hinh cho app\Presentation_16x16.png" />
+    <Content Include="Hinh cho app\Presentation_24x24.png" />
+    <Content Include="Hinh cho app\Presentation_256x256.png" />
+    <Content Include="Hinh cho app\Presentation_32x32.png" />
+    <Content Include="Hinh cho app\Presentation_48x48.png" />
+    <Content Include="Hinh cho app\Preview.ico" />
+    <Content Include="Hinh cho app\Preview_16x16.png" />
+    <Content Include="Hinh cho app\Preview_24x24.png" />
+    <Content Include="Hinh cho app\Preview_256x256.png" />
+    <Content Include="Hinh cho app\Preview_32x32.png" />
+    <Content Include="Hinh cho app\Preview_48x48.png" />
+    <Content Include="Hinh cho app\Previous.ico" />
+    <Content Include="Hinh cho app\Previous_16x16.png" />
+    <Content Include="Hinh cho app\Previous_24x24.png" />
+    <Content Include="Hinh cho app\Previous_256x256.png" />
+    <Content Include="Hinh cho app\Previous_32x32.png" />
+    <Content Include="Hinh cho app\Previous_48x48.png" />
+    <Content Include="Hinh cho app\Print.ico" />
+    <Content Include="Hinh cho app\Print_16x16.png" />
+    <Content Include="Hinh cho app\Print_24x24.png" />
+    <Content Include="Hinh cho app\Print_256x256.png" />
+    <Content Include="Hinh cho app\Print_32x32.png" />
+    <Content Include="Hinh cho app\Print_48x48.png" />
+    <Content Include="Hinh cho app\Properties.ico" />
+    <Content Include="Hinh cho app\Properties_16x16.png" />
+    <Content Include="Hinh cho app\Properties_24x24.png" />
+    <Content Include="Hinh cho app\Properties_256x256.png" />
+    <Content Include="Hinh cho app\Properties_32x32.png" />
+    <Content Include="Hinh cho app\Properties_48x48.png" />
+    <Content Include="Hinh cho app\Redo.ico" />
+    <Content Include="Hinh cho app\Redo_16x16.png" />
+    <Content Include="Hinh cho app\Redo_24x24.png" />
+    <Content Include="Hinh cho app\Redo_256x256.png" />
+    <Content Include="Hinh cho app\Redo_32x32.png" />
+    <Content Include="Hinh cho app\Redo_48x48.png" />
+    <Content Include="Hinh cho app\Refresh.ico" />
+    <Content Include="Hinh cho app\Refresh_16x16.png" />
+    <Content Include="Hinh cho app\Refresh_24x24.png" />
+    <Content Include="Hinh cho app\Refresh_256x256.png" />
+    <Content Include="Hinh cho app\Refresh_32x32.png" />
+    <Content Include="Hinh cho app\Refresh_48x48.png" />
+    <Content Include="Hinh cho app\Remove.ico" />
+    <Content Include="Hinh cho app\Remove_16x16.png" />
+    <Content Include="Hinh cho app\Remove_24x24.png" />
+    <Content Include="Hinh cho app\Remove_256x256.png" />
+    <Content Include="Hinh cho app\Remove_32x32.png" />
+    <Content Include="Hinh cho app\Remove_48x48.png" />
+    <Content Include="Hinh cho app\Rename.ico" />
+    <Content Include="Hinh cho app\Rename_16x16.png" />
+    <Content Include="Hinh cho app\Rename_24x24.png" />
+    <Content Include="Hinh cho app\Rename_256x256.png" />
+    <Content Include="Hinh cho app\Rename_32x32.png" />
+    <Content Include="Hinh cho app\Rename_48x48.png" />
+    <Content Include="Hinh cho app\Save.ico" />
+    <Content Include="Hinh cho app\Save_16x16.png" />
+    <Content Include="Hinh cho app\Save_24x24.png" />
+    <Content Include="Hinh cho app\Save_256x256.png" />
+    <Content Include="Hinh cho app\Save_32x32.png" />
+    <Content Include="Hinh cho app\Save_48x48.png" />
+    <Content Include="Hinh cho app\Search.ico" />
+    <Content Include="Hinh cho app\Search_16x16.png" />
+    <Content Include="Hinh cho app\Search_24x24.png" />
+    <Content Include="Hinh cho app\Search_256x256.png" />
+    <Content Include="Hinh cho app\Search_32x32.png" />
+    <Content Include="Hinh cho app\Search_48x48.png" />
+    <Content Include="Hinh cho app\Send.ico" />
+    <Content Include="Hinh cho app\Send_16x16.png" />
+    <Content Include="Hinh cho app\Send_24x24.png" />
+    <Content Include="Hinh cho app\Send_256x256.png" />
+    <Content Include="Hinh cho app\Send_32x32.png" />
+    <Content Include="Hinh cho app\Send_48x48.png" />
+    <Content Include="Hinh cho app\Settings.ico" />
+    <Content Include="Hinh cho app\Settings_16x16.png" />
+    <Content Include="Hinh cho app\Settings_24x24.png" />
+    <Content Include="Hinh cho app\Settings_256x256.png" />
+    <Content Include="Hinh cho app\Settings_32x32.png" />
+    <Content Include="Hinh cho app\Settings_48x48.png" />
+    <Content Include="Hinh cho app\Stock Index Down.ico" />
+    <Content Include="Hinh cho app\Stock Index Down_16x16.png" />
+    <Content Include="Hinh cho app\Stock Index Down_24x24.png" />
+    <Content Include="Hinh cho app\Stock Index Down_256x256.png" />
+    <Content Include="Hinh cho app\Stock Index Down_32x32.png" />
+    <Content Include="Hinh cho app\Stock Index Down_48x48.png" />
+    <Content Include="Hinh cho app\Stock Index Up.ico" />
+    <Content Include="Hinh cho app\Stock Index Up_16x16.png" />
+    <Content Include="Hinh cho app\Stock Index Up_24x24.png" />
+    <Content Include="Hinh cho app\Stock Index Up_256x256.png" />
+    <Content Include="Hinh cho app\Stock Index Up_32x32.png" />
+    <Content Include="Hinh cho app\Stock Index Up_48x48.png" />
+    <Content Include="Hinh cho app\Stop.ico" />
+    <Content Include="Hinh cho app\Stop_16x16.png" />
+    <Content Include="Hinh cho app\Stop_24x24.png" />
+    <Content Include="Hinh cho app\Stop_256x256.png" />
+    <Content Include="Hinh cho app\Stop_32x32.png" />
+    <Content Include="Hinh cho app\Stop_48x48.png" />
+    <Content Include="Hinh cho app\Synchronize.ico" />
+    <Content Include="Hinh cho app\Synchronize_16x16.png" />
+    <Content Include="Hinh cho app\Synchronize_24x24.png" />
+    <Content Include="Hinh cho app\Synchronize_256x256.png" />
+    <Content Include="Hinh cho app\Synchronize_32x32.png" />
+    <Content Include="Hinh cho app\Synchronize_48x48.png" />
+    <Content Include="Hinh cho app\Text Document.ico" />
+    <Content Include="Hinh cho app\Text Document_16x16.png" />
+    <Content Include="Hinh cho app\Text Document_24x24.png" />
+    <Content Include="Hinh cho app\Text Document_256x256.png" />
+    <Content Include="Hinh cho app\Text Document_32x32.png" />
+    <Content Include="Hinh cho app\Text Document_48x48.png" />
+    <Content Include="Hinh cho app\Undo.ico" />
+    <Content Include="Hinh cho app\Undo_16x16.png" />
+    <Content Include="Hinh cho app\Undo_24x24.png" />
+    <Content Include="Hinh cho app\Undo_256x256.png" />
+    <Content Include="Hinh cho app\Undo_32x32.png" />
+    <Content Include="Hinh cho app\Undo_48x48.png" />
+    <Content Include="Hinh cho app\Upload.ico" />
+    <Content Include="Hinh cho app\Upload_16x16.png" />
+    <Content Include="Hinh cho app\Upload_24x24.png" />
+    <Content Include="Hinh cho app\Upload_256x256.png" />
+    <Content Include="Hinh cho app\Upload_32x32.png" />
+    <Content Include="Hinh cho app\Upload_48x48.png" />
+    <Content Include="Hinh cho app\User.ico" />
+    <Content Include="Hinh cho app\User_16x16.png" />
+    <Content Include="Hinh cho app\User_24x24.png" />
+    <Content Include="Hinh cho app\User_256x256.png" />
+    <Content Include="Hinh cho app\User_32x32.png" />
+    <Content Include="Hinh cho app\User_48x48.png" />
+    <Content Include="Hinh cho app\Zoom In.ico" />
+    <Content Include="Hinh cho app\Zoom In_16x16.png" />
+    <Content Include="Hinh cho app\Zoom In_24x24.png" />
+    <Content Include="Hinh cho app\Zoom In_256x256.png" />
+    <Content Include="Hinh cho app\Zoom In_32x32.png" />
+    <Content Include="Hinh cho app\Zoom In_48x48.png" />
+    <Content Include="Hinh cho app\Zoom Out.ico" />
+    <Content Include="Hinh cho app\Zoom Out_16x16.png" />
+    <Content Include="Hinh cho app\Zoom Out_24x24.png" />
+    <Content Include="Hinh cho app\Zoom Out_256x256.png" />
+    <Content Include="Hinh cho app\Zoom Out_32x32.png" />
+    <Content Include="Hinh cho app\Zoom Out_48x48.png" />
+    <None Include="Resources\silver-database-icon2.png" />
+    <None Include="Resources\silver-database-icon1.png" />
+    <None Include="Resources\silver-database-icon.png" />
+    <None Include="Resources\sqlserver.png" />
+    <None Include="Resources\lock_32.png" />
+    <None Include="Resources\user_32.png" />
+    <None Include="Resources\error_button.png" />
+    <None Include="Resources\user_business_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
